@@ -22,3 +22,19 @@ A modern **airline booking platform** that lets users search flights, book ticke
 | Deployment | Docker / Kubernetes / AWS |
 
 ## 📁 Project Structure
+├── frontend
+├── backend
+├── docs
+├── tests
+├── .env.example
+├── README.md
+└── LICENSE
+
+
+📦 API Endpoints
+Method	Endpoint	Description
+POST	/auth/register	Register a new user
+POST	/auth/login	User login
+GET	/flights	List available flights
+POST	/bookings	Create a booking
+GET	/bookings/:id	View booking details
